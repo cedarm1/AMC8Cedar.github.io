@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMC8 Master - Complete Learning Platform</title>
+    <meta name="description" content="Master the four core modules of AMC8: Arithmetic & Number Theory, Algebra, Geometry, and Combinatorics">
+    <meta name="keywords" content="AMC8, Math Competition, American Mathematics Competitions, Middle School Math, Math Preparation">
+    <meta name="author" content="AMC8 Learning Community">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔢</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="container">
+            <a href="#home" class="logo">
+                <i class="fas fa-calculator"></i>
+                AMC8 Master
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#modules">Core Modules</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#problems">Problems</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact" class="btn btn-outline">Start Learning</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Master the Four Core Modules of AMC8</h1>
+                <p>Free comprehensive learning platform for American Mathematics Competition (AMC8). Complete coverage of Arithmetic & Number Theory, Algebra, Geometry, and Combinatorics & Counting.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <i class="fas fa-book-open"></i>
+                        <span>4 Core Modules</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-chart-line"></i>
+                        <span>200+ Practice Problems</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>10,000+ Students</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#modules" class="btn">Explore Modules</a>
+                    <a href="#problems" class="btn btn-outline">View Problems</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Overview -->
+    <section class="section" id="modules">
+        <div class="container">
+            <div class="section-title">
+                <h2>AMC8 Core Modules</h2>
+                <p>Systematically learn all essential topics for the competition</p>
+            </div>
+            
+            <div class="modules-grid">
+                <!-- Module 1: Arithmetic & Number Theory -->
+                <div class="module-card arithmetic">
+                    <div class="module-icon">
+                        <i class="fas fa-sort-numeric-down"></i>
+                    </div>
+                    <h3>Arithmetic & Number Theory</h3>
+                    <p>Master calculations with integers, fractions, decimals, percentages, and number theory basics</p>
+                    <ul class="topics-list">
+                        <li>Integer Operations & Divisibility</li>
+                        <li>Prime & Composite Numbers</li>
+                        <li>GCD & LCM</li>
+                        <li>Remainder Problems</li>
+                        <li>Number Patterns & Puzzles</li>
+                    </ul>
+                    <a href="#details" class="btn module-btn" data-module="arithmetic">Learn More</a>
+                </div>
+                
+                <!-- Module 2: Algebra -->
+                <div class="module-card algebra">
+                    <div class="module-icon">
+                        <i class="fas fa-x"></i>
+                    </div>
+                    <h3>Algebra (Preliminary)</h3>
+                    <p>Learn basic algebraic expressions, equations, ratios, proportions, and sequences</p>
+                    <ul class="topics-list">
+                        <li>Expressions & Equations</li>
+                        <li>Ratios & Proportions</li>
+                        <li>Sequences & Patterns</li>
+                        <li>Linear Relationships</li>
+                        <li>Basic Function Concepts</li>
+                    </ul>
+                    <a href="#details" class="btn module-btn" data-module="algebra">Learn More</a>
+                </div>
+                
+                <!-- Module 3: Geometry -->
+                <div class="module-card geometry">
+                    <div class="module-icon">
+                        <i class="fas fa-shapes"></i>
+                    </div>
+                    <h3>Geometry</h3>
+                    <p>Understand core concepts of plane and solid geometry with calculation methods</p>
+                    <ul class="topics-list">
+                        <li>Triangles & Quadrilaterals</li>
+                        <li>Circle Properties</li>
+                        <li>Volume & Surface Area</li>
+                        <li>Pythagorean Theorem</li>
+                        <li>Similarity & Congruence</li>
+                    </ul>
+                    <a href="#details" class="btn module-btn" data-module="geometry">Learn More</a>
+                </div>
+                
+                <!-- Module 4: Combinatorics -->
+                <div class="module-card combinatorics">
+                    <div class="module-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Combinatorics & Counting</h3>
+                    <p>Master counting principles, probability basics, and logical reasoning methods</p>
+                    <ul class="topics-list">
+                        <li>Basic Counting Principles</li>
+                        <li>Permutations & Combinations</li>
+                        <li>Probability Basics</li>
+                        <li>Systematic Enumeration</li>
+                        <li>Optimization Problems</li>
+                    </ul>
+                    <a href="#details" class="btn module-btn" data-module="combinatorics">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Module Details -->
+    <section class="section module-details" id="details">
+        <div class="container">
+            <div class="section-title">
+                <h2>Module Details</h2>
+                <p>In-depth exploration of each module's topics and learning objectives</p>
+            </div>
+            
+            <div class="module-tabs">
+                <button class="module-tab active" data-tab="arithmetic">Arithmetic & Number Theory</button>
+                <button class="module-tab" data-tab="algebra">Algebra</button>
+                <button class="module-tab" data-tab="geometry">Geometry</button>
+                <button class="module-tab" data-tab="combinatorics">Combinatorics</button>
+            </div>
+            
+            <!-- Arithmetic Content -->
+            <div class="tab-content active" id="arithmetic-content">
+                <h3>Arithmetic & Number Theory Details</h3>
+                <p>This fundamental section covers about 25% of AMC8 problems. Mastery is crucial for developing mathematical intuition.</p>
+                
+                <div class="topic-grid">
+                    <div class="topic-item">
+                        <h4><i class="fas fa-calculator"></i> Integer Operations</h4>
+                        <p>Arithmetic operations, order of operations, mental math techniques</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-divide"></i> Divisibility</h4>
+                        <p>Divisibility rules, factors and multiples, prime factorization</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-percent"></i> Fractions & Percentages</h4>
+                        <p>Fraction operations, decimal conversion, percentage applications</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-sort-amount-down"></i> Number Theory Basics</h4>
+                        <p>GCD/LCM, remainder problems, modular arithmetic basics</p>
+                    </div>
+                </div>
+                
+                <h4 class="learning-tips">Learning Tips</h4>
+                <ul class="topics-list">
+                    <li>Practice 15 minutes of basic calculations daily</li>
+                    <li>Memorize prime numbers up to 100</li>
+                    <li>Master quick divisibility checking techniques</li>
+                    <li>Practice percentage applications in word problems</li>
+                </ul>
+            </div>
+            
+            <!-- Algebra Content -->
+            <div class="tab-content" id="algebra-content">
+                <h3>Algebra (Preliminary) Details</h3>
+                <p>Algebra bridges arithmetic and advanced mathematics. AMC8 algebra problems focus on fundamental concepts and applications.</p>
+                
+                <div class="topic-grid">
+                    <div class="topic-item">
+                        <h4><i class="fas fa-equals"></i> Expressions & Equations</h4>
+                        <p>Algebraic simplification, linear equations, systems basics</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-balance-scale"></i> Ratios & Proportions</h4>
+                        <p>Ratio reasoning, unit conversion, similarity applications</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-chart-line"></i> Sequences & Patterns</h4>
+                        <p>Arithmetic/geometric sequences, pattern recognition</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-function"></i> Function Basics</h4>
+                        <p>Variable relationships, function tables, simple linear relationships</p>
+                    </div>
+                </div>
+                
+                <h4 class="learning-tips">Learning Tips</h4>
+                <ul class="topics-list">
+                    <li>Transition from concrete numbers to variable thinking</li>
+                    <li>Master multiple approaches to ratio problems</li>
+                    <li>Train pattern recognition in sequences</li>
+                    <li>Practice translating word problems into equations</li>
+                </ul>
+            </div>
+            
+            <!-- Geometry Content -->
+            <div class="tab-content" id="geometry-content">
+                <h3>Geometry Details</h3>
+                <p>Geometry has significant weight in AMC8. Master properties and calculations of basic shapes.</p>
+                
+                <div class="topic-grid">
+                    <div class="topic-item">
+                        <h4><i class="fas fa-triangle"></i> Plane Geometry</h4>
+                        <p>Triangles, quadrilaterals, circles: properties and calculations</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-cube"></i> Solid Geometry</h4>
+                        <p>Cubes, rectangular prisms, cylinders: volume & surface area</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-expand-alt"></i> Transformations</h4>
+                        <p>Symmetry, rotation, translation, composite shapes</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-ruler-combined"></i> Geometric Reasoning</h4>
+                        <p>Pythagorean theorem, similar triangles, coordinate basics</p>
+                    </div>
+                </div>
+                
+                <h4 class="learning-tips">Learning Tips</h4>
+                <ul class="topics-list">
+                    <li>Memorize area/volume formulas for common shapes</li>
+                    <li>Practice shape decomposition and composition</li>
+                    <li>Master various applications of Pythagorean theorem</li>
+                    <li>Develop spatial visualization skills</li>
+                </ul>
+            </div>
+            
+            <!-- Combinatorics Content -->
+            <div class="tab-content" id="combinatorics-content">
+                <h3>Combinatorics & Counting Details</h3>
+                <p>This section requires logical thinking and systematic approaches, key for high scores.</p>
+                
+                <div class="topic-grid">
+                    <div class="topic-item">
+                        <h4><i class="fas fa-layer-group"></i> Basic Counting Principles</h4>
+                        <p>Addition/multiplication principles, permutations/combinations</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-dice"></i> Probability Basics</h4>
+                        <p>Equally likely events, simple conditional probability</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-sitemap"></i> Logic & Enumeration</h4>
+                        <p>Systematic listing, Venn diagrams, logical reasoning</p>
+                    </div>
+                    <div class="topic-item">
+                        <h4><i class="fas fa-arrows-alt-h"></i> Optimization Problems</h4>
+                        <p>Maximum/minimum values under constraints</p>
+                    </div>
+                </div>
+                
+                <h4 class="learning-tips">Learning Tips</h4>
+                <ul class="topics-list">
+                    <li>Train systematic enumeration methods</li>
+                    <li>Master basic permutation/combination formulas</li>
+                    <li>Practice modeling probability problems</li>
+                    <li>Learn strategies for optimization problems</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practice Problems -->
+    <section class="section problems-showcase" id="problems">
+        <div class="container">
+            <div class="section-title">
+                <h2>Practice Problems</h2>
+                <p>Selected problems from past AMC8 exams with detailed solutions</p>
+            </div>
+            
+            <div class="problem-cards">
+                <!-- Problem 1 -->
+                <div class="problem-card">
+                    <div class="problem-header">
+                        <span class="difficulty easy">Easy</span>
+                        <span>Arithmetic</span>
+                    </div>
+                    <div class="problem-content">
+                        <p>If 3 × 4 × 5 × 6 = N × 12, what is the value of N?</p>
+                    </div>
+                    <button class="btn solution-btn" data-problem="1">Show Solution</button>
+                    <div class="solution" id="solution1">
+                        <p><strong>Solution:</strong></p>
+                        <p>Left side: 3 × 4 = 12, 12 × 5 = 60, 60 × 6 = 360</p>
+                        <p>Equation: 360 = N × 12</p>
+                        <p>Divide both sides by 12: N = 360 ÷ 12 = 30</p>
+                        <p><strong>Answer:</strong> N = 30</p>
+                    </div>
+                </div>
+                
+                <!-- Problem 2 -->
+                <div class="problem-card">
+                    <div class="problem-header">
+                        <span class="difficulty medium">Medium</span>
+                        <span>Algebra</span>
+                    </div>
+                    <div class="problem-content">
+                        <p>If x + 2x + 3x + 4x = 100, what is the value of x?</p>
+                    </div>
+                    <button class="btn solution-btn" data-problem="2">Show Solution</button>
+                    <div class="solution" id="solution2">
+                        <p><strong>Solution:</strong></p>
+                        <p>Combine like terms: x + 2x + 3x + 4x = (1+2+3+4)x = 10x</p>
+                        <p>Equation: 10x = 100</p>
+                        <p>Divide both sides by 10: x = 10</p>
+                        <p><strong>Answer:</strong> x = 10</p>
+                    </div>
+                </div>
+                
+                <!-- Problem 3 -->
+                <div class="problem-card">
+                    <div class="problem-header">
+                        <span class="difficulty medium">Medium</span>
+                        <span>Geometry</span>
+                    </div>
+                    <div class="problem-content">
+                        <p>A square has a perimeter of 20 cm. What is its area in square centimeters?</p>
+                    </div>
+                    <button class="btn solution-btn" data-problem="3">Show Solution</button>
+                    <div class="solution" id="solution3">
+                        <p><strong>Solution:</strong></p>
+                        <p>Square perimeter formula: P = 4 × side</p>
+                        <p>Given P = 20 cm, so side = 20 ÷ 4 = 5 cm</p>
+                        <p>Square area formula: A = side × side = 5 × 5 = 25 cm²</p>
+                        <p><strong>Answer:</strong> 25 square centimeters</p>
+                    </div>
+                </div>
+                
+                <!-- Problem 4 -->
+                <div class="problem-card">
+                    <div class="problem-header">
+                        <span class="difficulty hard">Hard</span>
+                        <span>Combinatorics</span>
+                    </div>
+                    <div class="problem-content">
+                        <p>How many ways can you arrange the letters in the word "MATH"?</p>
+                    </div>
+                    <button class="btn solution-btn" data-problem="4">Show Solution</button>
+                    <div class="solution" id="solution4">
+                        <p><strong>Solution:</strong></p>
+                        <p>The word "MATH" has 4 distinct letters</p>
+                        <p>Number of permutations = 4! = 4 × 3 × 2 × 1 = 24</p>
+                        <p><strong>Answer:</strong> 24 different arrangements</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center-button">
+                <a href="#" class="btn">View More Problems</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section class="section resources" id="resources">
+        <div class="container">
+            <div class="section-title">
+                <h2>Learning Resources</h2>
+                <p>Free AMC8 preparation materials and practice sets</p>
+            </div>
+            
+            <div class="resource-cards">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Cheat Sheets PDF</h3>
+                    <p>All four modules summarized in printable format</p>
+                    <a href="#" class="btn">Download PDF</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-list-check"></i>
+                    </div>
+                    <h3>Practice Sets</h3>
+                    <p>200+ problems by difficulty with solutions</p>
+                    <a href="#" class="btn">Start Practice</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Lessons</h3>
+                    <p>Modular video lessons, 5-10 minutes per topic</p>
+                    <a href="#" class="btn">Watch Videos</a>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Study Schedule</h3>
+                    <p>8-week preparation plan, 30 minutes daily</p>
+                    <a href="#" class="btn">Get Schedule</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & CTA -->
+    <section class="section cta-section" id="contact">
+        <div class="container">
+            <h2>Start Your AMC8 Journey</h2>
+            <p>Join our learning community for latest materials and support</p>
+            
+            <div class="subscribe-form">
+                <form id="contactForm">
+                    <input type="email" id="emailInput" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn">Get Free Resources</button>
+                </form>
+                <p class="form-note">No spam. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AMC8 Master</h3>
+                    <p>Providing high-quality AMC8 math competition resources to help students master all four core modules.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#modules">Core Modules</a></li>
+                        <li><a href="#details">Details</a></li>
+                        <li><a href="#problems">Problems</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Modules</h3>
+                    <ul class="footer-links">
+                        <li><a href="#details" data-module="arithmetic">Arithmetic & Number Theory</a></li>
+                        <li><a href="#details" data-module="algebra">Algebra</a></li>
+                        <li><a href="#details" data-module="geometry">Geometry</a></li>
+                        <li><a href="#details" data-module="combinatorics">Combinatorics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> contact@amc8master.com</li>
+                        <li><i class="fas fa-globe"></i> www.amc8master.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Learning Resource Center</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 AMC8 Master. All rights reserved. This site is for educational purposes only.</p>
+                <p>AMC8 is a registered trademark of MAA. This site is not affiliated with MAA.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js" defer></script>
+</body>
+</html>
